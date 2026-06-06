@@ -1,0 +1,93 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+.mypy_cache/
+.ruff_cache/
+
+# ===== Android / IntelliJ =====
+*.iml
+.gradle/
+local.properties
+.idea/
+.DS_Store
+build/
+captures/
+.externalNativeBuild
+.cxx
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+release/
+*.keystore
+!debug.keystore
+
+# ===== Node / Frontend 工具（备用） =====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+
+# ===== 数据 / 模型 / 上传 =====
+# 训练数据 & 模型权重
+data/
+datasets/
+*.pt
+*.onnx
+*.tflite
+*.engine
+*.h5
+*.pkl
+runs/
+wandb/
+logs/
+
+# 用户上传图片（运行时生成，不入库）
+uploads/
+server/uploads/
+server/data/*.db
+*.sqlite
+*.sqlite3
+
+# ===== 系统 / 编辑器 =====
+.DS_Store
+Thumbs.db
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+*.swp
+*.swo
+*~
+
+# ===== 环境变量 / 密钥 =====
+.env
+.env.local
+.env.*.local
+*.pem
+secrets.yaml
+
+# ===== 临时文件 =====
+tmp/
+temp/
+*.tmp
+*.bak
+*.log
